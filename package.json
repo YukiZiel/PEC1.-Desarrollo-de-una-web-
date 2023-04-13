@@ -5,7 +5,7 @@
     "rimraf": "^5.0.0"
   },
   "name": "pec1",
-  "source": "src/portada.html",
+  "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "description": "",
   "version": "1.0.0",

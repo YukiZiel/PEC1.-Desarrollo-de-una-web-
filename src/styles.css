@@ -126,6 +126,9 @@ a {
     width: 600px;
 }
 
+.fa-solid {
+    color:red;}
+
 .retorn {
     display: block;
     margin-top: 400px;

@@ -77,16 +77,24 @@ a {
 
 .categoryBody ul {
     list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.categoryBody li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 2em;
 }
 
 .categoryBody a {
     color: black;
 }
 
-.categoryBody div {
-    float: left;
-    margin-right: 200px;
-}
+
 
 @media (max-width:900px){
     img {

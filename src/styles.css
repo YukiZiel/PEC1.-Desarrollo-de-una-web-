@@ -129,6 +129,9 @@ a {
 .fa-solid {
     color:red;}
 
+.fa-solid .fa-leaf {
+    color:green;}
+
 .retorn {
     display: block;
     margin-top: 400px;

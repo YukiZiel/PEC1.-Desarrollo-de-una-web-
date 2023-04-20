@@ -145,6 +145,11 @@ ol .fa-solid {
 
 button {
     margin-top:10px;
+    padding: 5px 15px;
+    color: white;
+    background-color: #db2c45;
+    border-radius: 3px;
+    border:0px;
 }
 
 #name, #comment {

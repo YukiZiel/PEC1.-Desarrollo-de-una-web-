@@ -88,6 +88,9 @@ a {
     margin-right: 200px;
 }
 
+.fa-duotone .fa-fire .fa-beat {
+    content: repeat(3);}
+
 @media (max-width:900px){
     img {
         max-width: 100%;

@@ -126,6 +126,14 @@ a {
     width: 600px;
 }
 
+ol .fa-solid {
+    color:red;
+}
+
+.fa-leaf {
+    color:green;
+}
+
 .retorn {
     display: block;
     margin-top: 400px;

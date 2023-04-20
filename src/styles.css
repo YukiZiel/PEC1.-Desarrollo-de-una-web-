@@ -152,7 +152,7 @@ button {
     border:0px;
 }
 
-#name, #comment {
+#name-1, #comment-1, #name-2, #comment-2{
     width: 100%;
 }
 

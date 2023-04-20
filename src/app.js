@@ -13,7 +13,7 @@ commentForm.addEventListener("submit", (event) => {
   commentElement.classList.add("comment");
   commentElement.innerHTML = `
     <strong>${name}:</strong>
-    <div class="comment-text">${comment}</div>
+    <p class="comment-text">${comment}</p>
   `;
 
   // Añadir el comentario al contenedor

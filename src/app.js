@@ -1,5 +1,3 @@
-
-
 const commentForms = document.querySelectorAll("form");
 
 commentForms.forEach((form) => {

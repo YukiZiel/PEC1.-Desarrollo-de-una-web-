@@ -1,17 +1,118 @@
+/* General */
+
 h1{
-    color:black;
+    color: rgb(255, 145, 0);
     padding-bottom: 30px;
 }
 
+body{
+    height: 100vh;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 20%;
+    line-height:25px;
+    /* background: linear-gradient(to bottom, white, rgb(205, 243, 255)); */
+}
+
+ol{
+    list-style-type: circle;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(255, 81, 0);
+}
+
+a:hover {
+    color: rgb(128, 32, 192);
+}
+
+.bold {
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+button {
+    margin-top:10px;
+    padding: 5px 15px;
+    color: white;
+    background-color: #db2c45;
+    border-radius: 3px;
+    border:0px;
+}
+
+header h1 {
+    padding-top: 20px;
+}
+
+.detailBody1 header h1, .detailBody2 header h1{
+    color: rgb(163, 0, 0);
+
+}
+
+.form-margin {
+    padding-right: 40%;
+}
+
+#name-1, #name-2{
+    width: 40%;
+}
+
+#comment-1, #comment-2 {
+    width: 80%;
+    height: 100px;
+}
+
+#comments-container-1, #comments-container-2{
+    margin-top:30px;
+    width: 100%;
+    word-wrap: break-word;
+    background-color: aliceblue;
+    padding: 1% 3%;
+    border-radius: 10px;
+}
+
+.detailCategory div {
+    float: left;
+    margin-right: 80px;
+}
+
+.detailCategory a {
+    color: black;
+}
+
+.detailBody1 .detailCategory img, .detailBody2 .detailCategory img  {
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+    display: inline;
+    margin-top: 0px;
+}
+
+.indexBody img, .aboutBody img {
+    display: block;
+    margin: 50px auto 5px auto;
+    width: 90%;
+}
+
+figcaption {
+    font-size: 13px;
+    text-align: center;
+}
+
+
+
+
+
+/* INDEX */
+
 #titulo {
-    color: rgb(255, 145, 0);
     text-align: center;
     font-size: 70px;
     margin-bottom: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-
 
 .menu {
     background-color: rgb(255, 145, 0);
@@ -31,109 +132,106 @@ h1{
     padding: 20px;
 }
 
-a:hover {
+.menu a:hover {
     color: rgb(128, 32, 192);
 }
 
-main {
-    padding: 50px;
-}
-
-.indexContent {
+.indexBody main {
+    padding: 40px 50px;
     background: linear-gradient(to bottom,  rgb(255, 234, 206), white);
 }
 
-body{
-    height: 100vh;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 30px 10%;
-    line-height:25px;
-    /* background: linear-gradient(to bottom, white, rgb(205, 243, 255)); */
+.indexBody figcaption {
+    color: rgb(255, 115, 0);
 }
 
-ol{
-    list-style-type: circle;
+
+
+/* ABOUT */
+
+.aboutBody h1 {
+    color: #1a5e4a;
 }
 
-a {
-    text-decoration: none;
-    color:rgb(255, 81, 0);
+.aboutBody main{
+    background-color: #54ac9330;
+    border-radius: 10px;
+    padding: 30px 50px;
 }
 
-.bold {
-    font-weight: bold;
-    padding-top: 30px;
+figure {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-.indexContent img {
-    display: block;
-    margin: 50px auto;
-    width: 900px;
+.aboutBody figcaption {
+    color: #1a5e4a;
+    margin-bottom: 30px;
 }
+
+
+/* CATEGORIES */
 
 .categoryBody img {
-    height: 250px;
+    width: 250px;
+    height:200px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
 }
+
 
 .categoryBody ul {
     list-style-type: none;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    text-align: left;
 }
 
-.categoryBody li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    margin-bottom: 2em;
+.categoryBody div {
+    padding: 1% 5%;
+    margin-bottom: 3%;
+    border-radius: 10px;
 }
 
-.categoryBody a {
-    color: black;
-    text-align: center;
+.food {
+    background-color: #fdf6ed;
 }
 
-
-
-@media (max-width:900px){
-    img {
-        max-width: 100%;
-    }
-    body {
-        padding: 15px 5%;
-    }
-
-}
-
-.detailBody1 .detailCategory img, .detailBody2 .detailCategory img  {
-    width: 300px;
-    display: inline;
-}
-
-.detailCategory div {
-    float: left;
-    margin-right: 80px;
-}
-
-.detailCategory a {
-    color: black;
-}
-
-.detailBody1 header h1{
+.food a, .food h3 {
     color: rgb(163, 0, 0);
-    padding-top: 20px;
 }
+
+.experience {
+    background-color: aliceblue;
+}
+
+.experience h3 {
+    color: rgb(0, 89, 190);
+}
+
+.event {
+    background-color: #f7e5ff;
+}
+
+.event h3 {
+    color: #600579;
+}
+
+
+
+/* DETALLE_1 */
 
 .detailBody1 {
-    background-color: rgb(255, 234, 206);
+    background-color: #fdf6ed;
 }
 
 .detailBody1 img{
     display: block;
-    margin: auto;
+    margin: 30px auto;
     width: 600px;
 }
 
@@ -145,30 +243,88 @@ ol .fa-solid {
     color:green;
 }
 
-button {
-    margin-top:10px;
-    padding: 5px 15px;
-    color: white;
-    background-color: #db2c45;
-    border-radius: 3px;
-    border:0px;
-}
 
-#name-1, #comment-1, #name-2, #comment-2{
-    width: 100%;
-}
 
-#comments-container {
-    margin-top:30px;
-    width: 100%;
-}
+/* DETEALLE_2 */
 
 .detailBody2 {
-    background-color: #baf0f0;
+    background-color: #fdf6ed;
 }
 
-.detailBody2 header h1{
-    color: #014cff;
-    padding-top: 20px;
+.detailBody2 img{
+    margin: 30px auto;
+
 }
 
+
+
+/* LINKS */
+
+.linksBody h1 {
+    color: #8755d0;
+}
+
+.linksBody section{
+    background-color: #eff3ff;
+    border-radius: 10px;
+    padding: 30px 50px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:1200px){
+
+    body {
+        padding: 15px 10%;
+    }
+
+    .categoryBody img {
+        width: 450px;
+        height:400px;
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width:900px){
+    img {
+        max-width: 100%;
+    }
+
+    body {
+        padding: 15px 8%;
+    }
+
+    #comment-1, #comment-2 {
+        width: 100%;
+    }
+
+    h1 {
+        line-height: 35px;
+    }
+
+}
+
+@media (max-width:530px){
+
+    body {
+        padding: 15px 3%;
+    }
+
+    .form-margin {
+        padding-right: 0%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .indexBody main {
+        padding: 20px;
+    }
+
+}

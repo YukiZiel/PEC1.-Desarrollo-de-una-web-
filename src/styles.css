@@ -295,6 +295,17 @@ footer {
 
 }
 
+/* FOOTER */
+
+footer a {
+    margin-right: 20px;
+}
+
+footer {
+    margin-bottom: 50px;
+}
+
+
 @media (max-width:900px){
     img {
         max-width: 100%;

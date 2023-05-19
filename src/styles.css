@@ -12,7 +12,10 @@ header .header-title .logo{
     margin-right: 30px;
 }
 
-
+.titulo {
+    font-size: 50px;
+    line-height: 50px;
+}
 
 h1{
     color: rgb(255, 145, 0);
@@ -163,6 +166,12 @@ figcaption {
 
 /* ABOUT */
 
+.title-long {
+    font-size: 50px;
+    line-height: 50px;
+
+}
+
 .aboutBody h1 {
     color: #1a5e4a;
 }
@@ -186,7 +195,7 @@ figure {
 
 /* CATEGORIES */
 
-.categoryBody img {
+.categoryBody li img {
     width: 250px;
     height:200px;
     object-fit: cover;
@@ -316,13 +325,26 @@ footer .logo {
     margin-top: 5%;
 }
 
+.linksBody .footer-pages {
+    margin-top: 0px;
+}
+
+.categoryBody .footer-pages {
+    margin: 0px;
+    padding: 0px;
+}
+
+.detailBody1 .footer-pages, .detailBody2 .footer-pages {
+    margin-top: 0px;
+}
+
 @media (max-width:1200px){
 
     body {
         padding: 15px 10%;
     }
 
-    .categoryBody img {
+    .categoryBody li img {
         width: 450px;
         height:400px;
         object-fit: cover;
@@ -370,6 +392,18 @@ footer .logo {
     }
     .indexBody main {
         padding: 20px;
+    }
+
+    .title-long {
+        font-size: 30px;
+        line-height: 40px;
+        margin-left: 10px;
+    }
+
+    .titulo {
+        font-size: 40px;
+        line-height: 40px;
+        margin-left: 10px;
     }
 
 }

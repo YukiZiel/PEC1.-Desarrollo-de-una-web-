@@ -106,7 +106,7 @@ header h1 {
     margin-top: 0px;
 }
 
-.indexBody img, .aboutBody img {
+.indexBody img, .aboutBody figure img {
     display: block;
     margin: 50px auto 5px auto;
     width: 90%;
@@ -119,8 +119,6 @@ figcaption {
 
 
 
-
-
 /* INDEX */
 
 #titulo {
@@ -128,7 +126,7 @@ figcaption {
     font-size: 70px;
     margin-bottom: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    animation: bounce 2s;
 }
 
 .menu {
@@ -164,6 +162,7 @@ figcaption {
 
 .heart {
     clip-path: polygon(50% 24%, 57% 7%, 69% 0, 83% 8%, 88% 28%, 86% 47%, 78% 63%, 50% 100%, 22% 63%, 14% 47%, 12% 28%, 17% 8%, 31% 0, 43% 7%);
+    animation: beat 2s infinite;
 }
 
 
@@ -340,6 +339,34 @@ footer .logo {
 .detailBody1 .footer-pages, .detailBody2 .footer-pages {
     margin-top: 0px;
 }
+
+
+@keyframes bounce {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+
 
 @media (max-width:1200px){
 

@@ -368,6 +368,29 @@ footer .logo {
     }
 }
 
+@keyframes fly {
+    0% {
+      top: 0;
+      transform: translate(50%, -50%) rotate(0);
+    }
+    30% {
+      top: 20%;
+      transform: translate(50%, -50%) rotate(30deg);
+    }
+    100% {
+      top: 0;
+      transform: translate(50%, -50%) rotate(0);
+    }
+  }
+
+
+.butterfly {
+    position: absolute;
+    right: 0;
+    animation: fly 4s infinite;
+    margin-right: 30%;
+    margin-top: 50%;
+}
 
 @media (max-width:1200px){
 

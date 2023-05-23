@@ -464,9 +464,6 @@ footer .logo {
         margin-left: 10px;
     }
 
-    .detailBody1 picture img {
-        content: url("/src/images/hotpotP.jpg");
-    }
 
     .detailBody2 picture img {
         content: url("/src/images/baosP.jpeg");

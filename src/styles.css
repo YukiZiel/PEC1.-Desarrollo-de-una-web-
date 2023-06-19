@@ -156,7 +156,7 @@ figcaption {
 }
 
 .indexBody figcaption {
-    color: #880b81;
+    color: black;
 }
 
 .heart {
@@ -190,7 +190,7 @@ figure {
 }
 
 .aboutBody figcaption {
-    color: #1a5e4a;
+    color: black;
     margin-bottom: 30px;
 }
 

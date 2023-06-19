@@ -129,7 +129,7 @@ figcaption {
 }
 
 .menu {
-    background-color: rgb(255, 145, 0);
+    background-color: #880b81;
     overflow: hidden;
     padding-left: 30px;
 
@@ -156,7 +156,7 @@ figcaption {
 }
 
 .indexBody figcaption {
-    color: rgb(255, 115, 0);
+    color: #880b81;
 }
 
 .heart {

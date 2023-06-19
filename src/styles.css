@@ -18,7 +18,7 @@ header .header-title .logo{
 }
 
 h1{
-    color: rgb(255, 145, 0);
+    color: #880b81;
     padding-bottom: 30px;
 }
 
@@ -28,7 +28,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px 20%;
     line-height:25px;
-    /* background: linear-gradient(to bottom, white, rgb(205, 243, 255)); */
 }
 
 ol{
@@ -53,7 +52,7 @@ button {
     margin-top:10px;
     padding: 5px 15px;
     color: white;
-    background-color: #db2c45;
+    background-color: #880b81;
     border-radius: 3px;
     border:0px;
 }
@@ -63,7 +62,7 @@ header h1 {
 }
 
 .detailBody1 header h1, .detailBody2 header h1{
-    color: rgb(163, 0, 0);
+    color: #880b81;
 
 }
 

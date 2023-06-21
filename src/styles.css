@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-    color: yellow;
+    color: #191970;
 }
 
 .bold {
@@ -147,7 +147,7 @@ figcaption {
 }
 
 .menu a:hover {
-    color: rgb(128, 32, 192);
+    color: #FFF8DC;
 }
 
 .indexBody main {

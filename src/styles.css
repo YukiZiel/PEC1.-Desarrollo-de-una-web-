@@ -467,4 +467,8 @@ footer .logo {
     .detailBody2 picture img {
         content: url("/src/images/baosP.jpeg");
     }
+
+    main figure img {
+        content: url("/src/images/selfiecameraP.webp");
+    }
 }

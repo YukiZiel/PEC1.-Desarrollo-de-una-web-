@@ -426,7 +426,7 @@ footer .logo {
         line-height: 35px;
     }
     
-    .indexbody figure img {
+    .indexBody figure img {
         content: url("/src/images/selfiecameraP.webp");
     }
 }

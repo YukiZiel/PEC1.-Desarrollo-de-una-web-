@@ -432,6 +432,17 @@ footer .logo {
     .aboutBody figure img {
         content: url("/src/images/ciutadelaP.webp");
     }
+
+    .aboutBody .container-b img {
+        content: url("/src/images/MariposaP.svg")
+    }
+    .butterfly {
+    position: absolute;
+    right: 0;
+    animation: fly 4s infinite;
+    margin-right: 25%;
+    margin-top: 180%;
+    }
 }
 
 @media (max-width:530px){

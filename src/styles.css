@@ -425,7 +425,10 @@ footer .logo {
     h1 {
         line-height: 35px;
     }
-
+    
+    .indexbody figure img {
+        content: url("/src/images/selfiecameraP.webp");
+    }
 }
 
 @media (max-width:530px){
@@ -468,7 +471,7 @@ footer .logo {
         content: url("/src/images/baosP.jpeg");
     }
 
-    main figure img {
+    .indexbody figure img {
         content: url("/src/images/selfiecameraP.webp");
     }
 }

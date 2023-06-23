@@ -480,9 +480,11 @@ footer .logo {
         margin-left: 10px;
     }
 
-
     .detailBody2 picture img {
         content: url("/src/images/baosP.webp");
     }
 
+    .indexBody figure img {
+    content: url("/src/images/selfiecameraXS.webp");
+    }
 }

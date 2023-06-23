@@ -404,7 +404,7 @@ footer .logo {
     }
 
     .detailBody2 picture img {
-        content: url("/src/images/baosM.jpeg");
+        content: url("/src/images/baosM.webp");
     }
 
 }
@@ -482,7 +482,7 @@ footer .logo {
 
 
     .detailBody2 picture img {
-        content: url("/src/images/baosP.jpeg");
+        content: url("/src/images/baosP.webp");
     }
 
 }

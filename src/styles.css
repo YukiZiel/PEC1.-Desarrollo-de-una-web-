@@ -484,6 +484,7 @@ footer .logo {
 
     .detailBody2 picture img {
         content: url("/src/images/baosP.webp");
+        height: auto;
     }
 
     .indexBody figure img {

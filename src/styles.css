@@ -429,6 +429,7 @@ footer .logo {
     .indexBody figure img {
         content: url("/src/images/selfiecameraP.webp");
     }
+    
     .aboutBody figure img {
         content: url("/src/images/ciutadelaP.webp");
     }
@@ -436,6 +437,7 @@ footer .logo {
     .aboutBody .container-b img {
         content: url("/src/images/MariposaP.png")
     }
+    
     .butterfly {
     position: absolute;
     right: 0;
@@ -486,5 +488,26 @@ footer .logo {
 
     .indexBody figure img {
     content: url("/src/images/selfiecameraXS.webp");
+    }
+    @keyframes fly {
+    0% {
+      top: 0;
+      transform: translate(50%, -50%) rotate(0);
+    }
+    30% {
+      top: 10%;
+      transform: translate(50%, -50%) rotate(30deg);
+    }
+    100% {
+      top: 0;
+      transform: translate(50%, -50%) rotate(0);
+    }
+  }
+    .butterfly {
+    position: absolute;
+    right: 0;
+    animation: fly 4s infinite;
+    margin-right: 25%;
+    margin-top: 260%;
     }
 }
